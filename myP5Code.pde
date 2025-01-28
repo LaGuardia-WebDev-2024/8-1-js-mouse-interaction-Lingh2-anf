@@ -16,13 +16,17 @@ void setup(){
   // take a bite out of the tomato!
   fill(255, 255, 255);
   ellipse(175, 200, 30, 30);
-}
+  }
+  
 
 //🎯Variable Declarations Go Here
-
+// mouseX and mouseY
 
 //🟢Draw Function - Runs on Repeat
-draw = function(){  
+draw = function(){
+  //background(255, 255, 255);
+  fill(255, 224, 189)
+  ellipse(mouseX ,mouseY ,40, 40);
 
 };
 
